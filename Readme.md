@@ -15,15 +15,15 @@ If you don't have PyInstaller in PATH, use this command instead (replace <userna
 anyways,
 
 Things I'd like:
-|_ Different web engine (that isn't chromium)
-|_ New web render engine (which renders HTML buttons/textboxes as native windows buttons)
-|_ A settings menu (previous one quite literally bluescreened my PC)
-|_ A settings.ini file to go with settings)
+* Different web engine (that isn't chromium)
+* New web render engine (which renders HTML buttons/textboxes as native windows buttons)
+* A settings menu (previous one quite literally bluescreened my PC)
+* A settings.ini file to go with settings)
 
 # stuff that exists
-[x] cool 90s theme
-[x] menu bar (press alt)
-[ ] settings menu
-[ ] new web engine
+* cool 90s theme
+* menu bar (press alt)
+* settings menu
+* new web engine
 
 [Original NuggyNet Repo](https://www.github.com/Kirb101/NuggetWeb) | [My BORING website](https://awethebird.neocities.org) | [Main YouTube channel](https://www.youtube.com/@nuggetbirb) | [Second channel](https://www.youtube.com/@nuggetbirbcult)
