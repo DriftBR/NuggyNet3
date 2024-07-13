@@ -1,6 +1,7 @@
 # NuggyNet!
 an open-source (obviously) web browser I own! idk what else to say here other than if you install with installer, you get a source code folder with stuff you can use for modding
 
+![image](https://github.com/user-attachments/assets/16d131f4-bc9b-4f3d-8e51-72901ae6d115)
 
 ## building?
 have these py modules first:
