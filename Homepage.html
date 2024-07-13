@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Window</title>
+    <style>
+        body {
+            background-color: #bfbfbf;
+            font-family: 'Comic Sans MS', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            margin: 0;
+        }
+        .search-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .search-bar {
+            width: 600px;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .aol-search {
+            font-family: 'Times New Roman', serif;
+        }
+        .links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .links a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-family: 'Comic Sans MS', cursive;
+        }
+        .special-link-left,
+        .special-link-right {
+            font-family: 'Times New Roman', serif;
+            position: fixed;
+            bottom: 20px;
+            margin: 0;
+            display: block;
+        }
+        .special-link-left {
+            left: 20px;
+        }
+        .special-link-right {
+            right: 20px;
+        }
+        #construction-image {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+        #blinking-text {
+            color: #ff8800;
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 32pt;
+            text-shadow: 1px 1px black; /* Simulates text stroke */
+            animation: bounce 2s linear infinite, blink 0.5s steps(1, end) infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { left: 0; }
+            50% { left: calc(50% - 10px); }
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <img id="construction-image" src="https://awethebird.neocities.org/images/under-construction.gif" alt="Under Construction">
+    <marquee id="blinking-text">NuggyNet Home</marquee>
+    <div class="search-container">
+        <form action="https://search.aol.com/aol/search" method="GET" target="_blank">
+            <input type="text" class="search-bar aol-search" name="q" placeholder="search aol because google sucks in my opinion">
+            <br>
+            <button type="submit">Search</button>
+        </form>
+        <div class="links">
+            <a href="https://music.youtube.com">YTM</a>
+            <a href="https://www.youtube.com/@awezabirb">YouTube</a>
+            <a href="https://twitch.tv/awezabirb">Twitch</a>
+            <a href="https://www.github.com/kirb101">GitHub</a>
+            <a class="special-link-left" href="https://awethebird.neocities.org">Birb's page</a>
+            <a class="special-link-right" href="https://awethebird.neocities.org/HomePage/socs">Birb's socials</a>
+        </div>
+    </div>
+</body>
+</html>
