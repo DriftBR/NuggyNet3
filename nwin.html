@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NuggyNet Quick Access</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), 
+                        url('https://images.unsplash.com/photo-1719090024421-f29c83ab4034?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') 
+                        no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 500px;
+            padding: 20px;
+            background: rgba(25, 25, 25, 0.85); /* Dark background */
+            border-radius: 7px;
+            border: 1px solid rgba(69, 69, 69, 0.25); /* 25% opacity stroke */
+            position: relative;
+            backdrop-filter: blur(10px); /* Apply blur to the container */
+            color: #fff;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24pt;
+            font-weight: semibold;
+            color: #ffffff;
+            margin: 0;
+            text-align: center;
+        }
+
+        .links {
+            font-size: 14px; /* Updated font size */
+            color: #ffffff; /* White color for links */
+            margin-top: 20px;
+            text-align: center; /* Centering the links horizontally */
+        }
+
+        .links a {
+            color: #ffffff; /* White color for links */
+            text-decoration: none;
+            margin: 0 15px; /* 15px space between the links */
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">NuggyNet Quick Access</div>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <a href="https://awethebird.necoties.org" target="_blank">AWETheBird</a>
+            <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+        </div>
+    </div>
+</body>
+</html>

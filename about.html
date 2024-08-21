@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About NuggyNet</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://images.unsplash.com/photo-1719090024421-f29c83ab4034?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 500px;
+            padding: 20px;
+            background: rgba(185, 140, 245, 0.50); /* 75% white background */
+            border-radius: 7px;
+            border: 1px solid rgba(69, 69, 69, 0.25); /* 25% opacity stroke */
+            position: relative;
+            backdrop-filter: blur(75px); /* Apply blur to the container */
+            color: #000;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24pt;
+            font-weight: semibold;
+            color: #000;
+            margin: 0;
+            text-align: center; /* Centered title */
+        }
+
+        .description {
+            font-size: 12pt;
+            color: #424242;
+            font-weight: 300; /* Semilight */
+            line-height: 1.5;
+            margin: 20px 0; /* space above and below */
+            text-align: left; /* Left-aligned text */
+            margin-left: 20px; /* Left margin */
+            margin-right: 20px; /* Right margin */
+        }
+
+        a {
+            color: #0000ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">About NuggyNet</div>
+        <div class="description">
+            NuggyNet is an open-source web browser developed by AWETheBird (see <a href="https://github.com/NuggyNet" target="_blank">https://github.com/NuggyNet</a>). This project was originally known as AWETheBrowser, before being renamed to NuggetWeb and today’s NuggyNet. This version of NuggyNet is different to the original now archived version of NuggyNet, with a new UI and different modes.
+        </div>
+        <div class="title">Credits</div>
+        <div class="description">
+            Chirp - <a href="https://github.com/actuallyaridan/chirp" target="_blank">https://github.com/actuallyaridan/chirp</a><br>
+            macOS NuggyNet - <a href="https://github.com/Kirb101/macOS_NuggyNet" target="_blank">https://github.com/Kirb101/macOS_NuggyNet</a><br>
+            About page background - <a href="https://unsplash.com/photos/wuM-Vn6vHik" target="_blank">https://unsplash.com/photos/wuM-Vn6vHik</a><br>
+            PyQt5 and pyqtwebengine - <a href="https://pypi.org/user/PhilThompson" target="_blank">https://pypi.org/user/PhilThompson</a>
+        </div>
+    </div>
+</body>
+</html>
